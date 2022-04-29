@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+h1{
+    background-color: #2aa998;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.8;
+    color: rgb(54, 53, 52);
+    justify-content: center;
+    border-radius: 1px;
+    box-shadow: 0 5px 10px 10px;
+    font-style: oblique;
+    flex-wrap: wrap;
+}
