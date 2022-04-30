@@ -1,16 +1,64 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
-h1{
-    background-color: #2aa998;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    opacity: 0.8;
-    color: rgb(54, 53, 52);
-    justify-content: center;
-    border-radius: 1px;
-    box-shadow: 0 5px 10px 10px;
-    font-style: oblique;
+
+body {
+    background-color: #efefef;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 20px;
+    width: 300px;
+}
+
+ul li img {
+    max-width: 100%;
+}
+
+ul li a {
+    color:#000;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+ul li a img {
+    display: block;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+ul li a:hover img {
+    transform: scale(1.02);
+}
+footer {
+    background-color: rgb(64, 62, 61);
+    text-align: center;
+    text-decoration: none
+}
+footer.a {
+    color: #000;
+    text-decoration: none;
 }
