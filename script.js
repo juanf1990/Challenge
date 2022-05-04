@@ -1,7 +1,7 @@
 const projects = [
     'single-price-grid-component-master',
     'fylo-landing-page-with-two-column-layout-master',
-    'challenge-3',
+    'nft-preview-card-component-main',
     'challenge-4'
 ];
 
