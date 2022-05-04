@@ -21,18 +21,32 @@ h2,
 h4 {
 	font-family: 'Raleway', sans-serif;
 }
+h1 {
+	font-size: 1.9;
+}
+h2 {
+	font-size: 1.9em;
+	margin-top: 0;
+}
 .container {
 	padding: 30px;
 	margin: 0 auto;
 	max-width: 100%;
 	width: 1200px;
-}	
+}
 .flex {
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 }
-.flex > div {
+.align-start {
+	align-items: flex-start;
+	font-size: 0.8em;
+	opacity: 0.6;
+	justify-content: space-between;
+}
+.flex > div,
+.flex > ul {
 	flex: 1;
 }
 .flex > div:first-child {
@@ -69,7 +83,6 @@ nav ul a {
 
 form {
 	display: flex;
-
 }
 input {
 	border: 1px solid hsl(243, 87%, 12%);
@@ -98,6 +111,10 @@ button {
 	position: relative;
 	padding:  50px 0;
 }
+.light-blueish p {
+	font-size: 0.7em;
+	margin-right: 130px;
+}
 .light-blueish::before {
 	content: '';
 	background-image: url('./images/bg-curve-desktop.svg');
@@ -111,7 +128,7 @@ button {
 }
 /* testimonial */
 
-.testimonial {
+.testimonial-box {
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 	border-radius: 5px;
@@ -119,7 +136,7 @@ button {
 	padding: 25px;
 	width: 80%;
 }
-.testimonial-box {
+.testimonial-box p {
 	font-size: 14px;
 	letter-spacing: 1px;
 	line-height: 1.7;
@@ -148,6 +165,7 @@ button {
 }
 .blueish form {
 	flex-direction: column;
+	margin-left: 150px;
 }
 .blueish form input{
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -155,6 +173,106 @@ button {
 	flex: 1;
 }
 .blueish form button {
-	margin: 20px 0;
+	margin: 20px 0 0;
 	width: 50%;
+}
+.blueish p {
+	font-size: 0.8sem;
+	opacity: 0.6;
+
+}
+
+/* Footer styling */
+
+footer {
+	background-color: hsl(243, 87%, 12%);
+	color: #fff;
+	justify-content: space-between;
+	padding: 50px 0;
+}
+footer ul {
+	list-style-type: none;
+}
+footer ul li {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+footer .social-media {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer .circle {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+	height: 40px;
+	width: 40px;
+	text-decoration: none;
+}
+footer p {
+	text-align: right;
+}
+
+footer img {
+	margin-left: 30px;
+	opacity: 0.8;
+}
+
+/* media */
+
+@media screen and (max-width: 768px) {
+	body {
+		text-align: center;
+	}
+	nav {
+		flex-direction: column;
+		margin: 10px 0;
+	}
+	nav ul li {
+		margin: 10px 20px;
+	}
+	form {
+		margin-left: 15px;
+	}
+	.light-blueish::before {
+		background-image: url('./images/bg-curve-mobile.svg');
+		height: 80px;
+	}
+	.flex {
+		flex-direction: column;
+	}
+	.flex > div {
+		width: 100%;
+	}
+	.flex > div:first-child {
+		margin-right: 0;
+	}
+	.flex > div:last-child {
+		margin-left: 0;
+	}
+	.testimonial-box {
+		width: 100%;
+	}
+	.blueish form input {
+		flex: 1;
+	}
+	.blueish form button {
+		margin: 20px 0;
+		width: 100%;
+	}
+	.illustration {
+		margin-top: 30px;
+	}
+	.user-info {
+		justify-content: center;
+	}
+	footer ul {
+		padding: 0;
+		width: 100%;
+	}
 }

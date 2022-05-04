@@ -1,6 +1,6 @@
 const projects = [
     'single-price-grid-component-master',
-    'challenge-2',
+    'fylo-landing-page-with-two-column-layout-master',
     'challenge-3',
     'challenge-4'
 ];
