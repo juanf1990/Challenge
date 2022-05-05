@@ -2,7 +2,7 @@ const projects = [
     'single-price-grid-component-master',
     'fylo-landing-page-with-two-column-layout-master',
     'nft-preview-card-component-main',
-    'challenge-4'
+    'order-summary-component-main'
 ];
 
 const list=document.getElementById('list');
