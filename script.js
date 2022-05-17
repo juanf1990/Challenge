@@ -2,7 +2,9 @@ const projects = [
     'single-price-grid-component-master',
     'fylo-landing-page-with-two-column-layout-master',
     'nft-preview-card-component-main',
-    'order-summary-component-main'
+    'order-summary-component-main',
+    'stats-preview-card-component-main',
+    'social-proof-section-master'
 ];
 
 const list=document.getElementById('list');
