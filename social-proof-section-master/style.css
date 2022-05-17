@@ -127,3 +127,59 @@ body {
 .three {
     margin-top: 2rem;
 }
+@media screen and (max-width: 375px) {
+body {
+    background-image: url(./images/bg-pattern-top-mobile.svg);
+    background-image: url(./images/bg-pattern-bottom-mobile.svg);
+    padding: 6rem 1.5rem;
+    }
+.top {
+    grid-template-columns: 1fr;   
+    text-align: center; 
+}
+.maintext {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.maintext h1 {
+    font-size: 3.4em;
+}
+.maintext .subtext {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.star-1 {
+    margin-right: 0rem;
+    flex-direction: column;
+}
+.star-2 {
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.star-3 {
+    flex-direction: column;
+    margin-left: 0rem;
+}
+.ratings p {
+    margin-left: 0rem;
+    margin-top: 0.8rem;    
+}
+.bottom {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+}
+.customer {
+    padding: 2.5rem 1.7rem; 
+}
+.one {
+    margin-bottom: 0rem;
+}
+.two {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.three {
+    margin-top: 0rem;
+}
+}

@@ -85,7 +85,7 @@ ul li {
     line-height: 28px;
 }
 @media screen and (max-width: 600px){
-    .row {
+.row {
         flex-direction: column;
     }
 }
