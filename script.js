@@ -4,7 +4,8 @@ const projects = [
     'nft-preview-card-component-main',
     'order-summary-component-main',
     'stats-preview-card-component-main',
-    'social-proof-section-master'
+    'social-proof-section-master',
+    'qr-code-component-main'
 ];
 
 const list=document.getElementById('list');
