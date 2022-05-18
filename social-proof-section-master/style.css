@@ -138,19 +138,24 @@ body {
     text-align: center; 
 }
 .maintext {
-    width: 100%;
     margin-bottom: 2rem;
+    width: 100%;
 }
 .maintext h1 {
-    font-size: 3.4em;
+    font-size: 2.6em;
 }
 .maintext .subtext {
     font-size: 1.1em;
     font-weight: 700;
 }
+.ratings p {
+    font-weight: 700;    
+    margin-left: 0rem;
+    margin-top: 0.8rem;
+}
 .star-1 {
-    margin-right: 0rem;
     flex-direction: column;
+    margin-right: 0rem;
 }
 .star-2 {
     flex-direction: column;
@@ -161,23 +166,22 @@ body {
     flex-direction: column;
     margin-left: 0rem;
 }
-.ratings p {
-    margin-left: 0rem;
-    margin-top: 0.8rem;    
-}
 .bottom {
     grid-template-columns: 1fr;
     margin-top: 3rem;
 }
 .customer {
-    padding: 2.5rem 1.7rem; 
+    padding: 2.5rem 1.6 rem; 
+}
+.customer .quote {
+    font-size: 1.1rem;
 }
 .one {
     margin-bottom: 0rem;
 }
 .two {
-    margin-top: 0rem;
     margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 .three {
     margin-top: 0rem;
