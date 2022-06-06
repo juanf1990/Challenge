@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  top: 0;
+  margin: 0;
+}
+main {
+  width: 85%;
+  margin: 0;
+  top: 0;
+}
+#navbar {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  border: 1px solid gray;
+  height: 40vh;
+  text-align: left;
+  padding: 1rem;
+  top: 0;
+}
+#navbar a,
+header {
+  margin-left: 20px;
+}
+header {
+  font-size: 30px;
+  font-style: bold;
+}
+.main-section {
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+.main-section p {
+  font-size: 18px;
+}
+.main-section li {
+  margin-top: 20px;
+}
+code {
+  background-color: lightgrey;
+}
+
+@media screen {
+  .main-section {
+      font-size: 15px;
+  }  
+}

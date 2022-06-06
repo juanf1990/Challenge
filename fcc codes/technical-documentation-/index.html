@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="freeCodeCamp Accessibility Quiz practice project"
+    />
+    <title>Technical Documentation Pagw</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+        <header>JS Documentation</header>
+        <br>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+        <br>
+        <a class="nav-link" href="#About_Me">About Me</a>
+        <br>
+        <a class="nav-link" href="#About_Coding">About Coding</a>
+        <br>
+        <a class="nav-link" href="#Github">Github</a>
+        <br>
+        <a class="nav-link" href="#Social_Networks">Social Networks</a>
+    </nav>
+    <main id="main-doc">
+        
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+            <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.</p>
+            <code>function greetMe(yourName) { alert("Hello " + yourName); }</code>
+            <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM).</li>
+        </section>
+        <section class="main-section" id="About_Me">
+            <header>About Me</header>
+            <p>JavaScript and Java are similar in some ways but fundamentally different in some others.</p>
+            <p>The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
+            <code>return number * number;</code>
+            <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
+        </section>
+        <section class="main-section" id="About_Coding">
+            <header>About Coding</header>
+            <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
+            <p>It is advisable to not use simple assignments in a conditional expression, because the assignment can be confused with equality when glancing over the code. For example, do not use the following code:</p>
+            <code>greetMe("World");</code>
+            <li>The name of the function.</li>
+        </section>
+        <section class="main-section" id="Github">
+            <header>Github</header>
+            <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
+            <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
+            <code>const PI = 3.14;</code>
+            <li>It has to be initialized to a value.</li>
+        </section>
+        <section class="main-section" id="Social_Networks">
+            <header>Social Networks</header>
+            <p>The scope rules for constants are the same as those for let block scope variables.</p>
+            <p>You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
+            <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+                WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+                //statements }</code>
+            <li>However, object attributes are not protected.</li>
+        </section>
+    </main>
+  </body>
+</html>
